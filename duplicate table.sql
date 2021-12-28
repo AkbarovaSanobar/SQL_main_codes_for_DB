@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS dup_11countries
+AS SELECT * FROM countries;

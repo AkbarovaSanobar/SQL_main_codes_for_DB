@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS countries_limit (
+COUNTRY_ID VARCHAR(2),
+COUNTRY_NAME VARCHAR(40)
+CHECK (COUNTRY_NAME IN('Italy', 'India', 'China')),
+REGION_ID decimal(10,0)
+);
+

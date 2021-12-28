@@ -1,0 +1,1 @@
+alter table country_new rename countries_new;
